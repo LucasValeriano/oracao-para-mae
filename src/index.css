@@ -37,7 +37,7 @@ body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-text);
-  line-height: 1.6;
+  line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -45,8 +45,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
   color: var(--color-text);
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .container {
@@ -176,6 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--spacing-lg);
   font-weight: 400;
   line-height: 1.8;
+  text-align: justify;
 }
 
 /* Problem Section */
@@ -204,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .problem-text p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   color: var(--color-text-light);
   margin-bottom: var(--spacing-md);
   text-align: justify;
@@ -251,7 +259,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .benefit-card p {
+  font-size: 1.05rem;
   text-align: justify;
+  line-height: 1.7;
 }
 
 /* Offer Section */
@@ -344,9 +354,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .faq-item p {
   color: var(--color-text-light);
-  font-size: 1rem;
+  font-size: 1.05rem;
   text-align: justify;
-  line-height: 1.6;
+  line-height: 1.75;
 }
 
 .footer {
