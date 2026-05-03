@@ -85,7 +85,7 @@ export const copy = {
         cardTitle: "Pacote Blindagem Completa",
         cardSubtitle: "O Guia Digital + TODOS os 5 Bônus Exclusivos",
         isPopular: true,
-        link: "#",
+        link: "https://go.perfectpay.com.br/PPU38CQBDOP",
         items: [
           { text: "Guia Principal de Orações", value: "R$ 47,90" },
           { text: "Bônus 1: Salmos de Restauração", value: "R$ 19,90" },
