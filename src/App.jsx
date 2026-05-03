@@ -266,7 +266,7 @@ function App() {
                   </div>
                   
                   <div style={{ marginTop: '0.5rem' }}>
-                    <a href="#" style={{ width: '100%', marginBottom: '1rem', padding: '1.2rem', fontSize: '1.1rem', textTransform: 'uppercase' }} className={`btn-primary ${pkg.isPopular ? 'pulse' : ''}`}>
+                    <a href={pkg.link || "#"} style={{ width: '100%', marginBottom: '1rem', padding: '1.2rem', fontSize: '1.1rem', textTransform: 'uppercase' }} className={`btn-primary ${pkg.isPopular ? 'pulse' : ''}`}>
                       {pkg.button}
                       <ArrowRight size={20} />
                     </a>

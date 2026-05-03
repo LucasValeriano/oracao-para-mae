@@ -64,10 +64,11 @@ export const copy = {
     subtitle: "Faltam poucos dias para o Dia das Mães. Você pode dar apenas mais uma roupa que ficará esquecida no armário... Ou pode presenteá-la com paz interior, cura e a verdadeira blindagem espiritual contra todo o mal. A decisão está em suas mãos.",
     packages: [
       {
-        cardTag: "Plano Básico",
-        cardTitle: "Guia Orações Poderosas",
-        cardSubtitle: "Material digital essencial",
+        cardTag: "O Essencial",
+        cardTitle: "Plano Básico",
+        cardSubtitle: "Apenas o Guia Digital + 1 Bônus",
         isPopular: false,
+        link: "https://go.perfectpay.com.br/PPU38CQBDP0",
         items: [
           { text: "Guia Principal de Orações", value: "R$ 47,90" },
           { text: "Bônus 1: Salmos de Restauração", value: "R$ 19,90" }
@@ -80,10 +81,11 @@ export const copy = {
         secureText: "Pagamento Seguro"
       },
       {
-        cardTag: "Oferta Especial de Dia das Mães",
+        cardTag: "Mais Escolhido",
         cardTitle: "Pacote Blindagem Completa",
-        cardSubtitle: "Acesso imediato ao material completo + Todos os Bônus VIP",
+        cardSubtitle: "O Guia Digital + TODOS os 5 Bônus Exclusivos",
         isPopular: true,
+        link: "#",
         items: [
           { text: "Guia Principal de Orações", value: "R$ 47,90" },
           { text: "Bônus 1: Salmos de Restauração", value: "R$ 19,90" },
